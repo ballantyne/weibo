@@ -6,7 +6,7 @@ module Weibo
     attr_reader :ctoken, :csecret, :consumer_options
     
     def initialize(ctoken, csecret, options={})
-      @ctoken, @csecret, @consumer_options = ctoken, csecret, {}
+      @ctoken, @csecret, @consumer_options = ctoken, csecret, options
       
       if options[:sign_in]
         @consumer_options[:authorize_path] =  '/oauth/authorize'

@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "weibo"
-  s.version = "0.0.13"
+  s.version = "0.0.14"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Scott Ballantyne"]
-  s.date = "2012-06-04"
+  s.date = "2012-06-09"
   s.description = "this gem is an adaptation of John Nunemaker's Twitter gem.  I modified it to make api integration for \u{65b0}\u{6d6a}\u{5fae}\u{535a} (t.sina.com.cn) easier."
   s.email = "ussballantyne@gmail.com"
   s.extra_rdoc_files = [

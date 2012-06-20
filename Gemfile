@@ -3,4 +3,4 @@ gem "oauth"
 gem "hashie"
 gem "httparty"
 gem 'crack'
-gem "jeweler"
+# gem "jeweler"

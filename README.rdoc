@@ -58,3 +58,9 @@ This library was based upon and is an adaptation of John Nunemaker's twitter gem
 == Copyright
 
 Copyright (c) 2010 Scott Ballantyne. See LICENSE for details.
+
+code is an adaptation of the twitter gem by John Nunemaker
+http://github.com/jnunemaker/twitter 
+
+Copyright (c) 2009 John Nunemaker
+

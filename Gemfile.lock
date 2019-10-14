@@ -2,16 +2,13 @@ GEM
   remote: http://rubygems.org/
   specs:
     crack (0.1.8)
-    git (1.2.5)
     hashie (1.1.0)
-    httparty (0.7.8)
-      crack (= 0.1.8)
-    jeweler (1.6.4)
-      bundler (~> 1.0)
-      git (>= 1.2.5)
-      rake
+    httparty (0.10.0)
+      multi_json (~> 1.0)
+      multi_xml
+    multi_json (1.14.0)
+    multi_xml (0.6.0)
     oauth (0.4.5)
-    rake (0.9.2)
 
 PLATFORMS
   ruby
@@ -20,5 +17,4 @@ DEPENDENCIES
   crack
   hashie
   httparty
-  jeweler
   oauth
